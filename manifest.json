@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Liked",
+  "version": "0.0.0.2",
+  "description": "This extension is for a bachelor thesis project for New York University. It manipulates the output of liking a photo on Instagram.",
+  "content_scripts": [
+    {
+      "matches": ["https://www.instagram.com/*"],
+      "js": ["jquery.min.js", "debounce.min.js", "content.js"],
+      "css": ["styles.css"]
+    }
+  ],
+  "icons": { "16": "icon16.png",
+           "48": "icon48.png",
+          "128": "icon128.png" }
+}

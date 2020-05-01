@@ -1,0 +1,25 @@
+.text {
+	font-size: 3.5em;
+	text-align: center;
+	color: rgb(255,255,255);
+
+	/*background-color: rgba(219, 113, 99,0.6);*/
+	background-color: rgba(246, 195, 206, 0.8);
+
+	line-height: 60px;
+
+  	margin: 0;
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	-ms-transform: translate(-50%, -50%);
+  	transform: translate(-50%, -50%);
+
+  	font-family: "Andale Mono", AndaleMono, monospace;
+
+}
+
+
+._9AhH0 {
+	position: relative;
+}
